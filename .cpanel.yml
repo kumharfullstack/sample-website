@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/kpnwebso/public_html/git/
+    - /bin/cp * $DEPLOYPATH    
